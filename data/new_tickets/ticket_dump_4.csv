@@ -1,0 +1,10 @@
+Ticket ID,Issue,Category,Resolution,Date,Agent Name,Resolved,Description,combined_text
+TCKT-2012,Bob boo,Network,repace hardware,2025-01-21,mas,Yes, clear_on_submit=True,
+TCKT-2013,Server access denied,Network,Cannot grant user access,2025-01-21,Bob bob,No, clear_on_submit=True,
+TCKT-2014,Server access denied,Network,Insufficient right to grant access,2025-01-21,Bob bob,No,user access failed to server,
+TCKT-2015,Server access denied,Network,yyyyyyyyyyyyyy,2025-01-21,Bob bob,No,key,
+TCKT-2016,Server access denied,Network,xxxxxxxxxxxxxxxxxxxxxx,2025-01-21,Bob bob,No,st.session_state,
+TCKT-2017,Server access denied,Network,dddddddddddd,2025-01-21,Bob bob,No,Date,
+TCKT-2018,Server access denied,Network,"fhgjlöoppökm,m.,.-",2025-01-21,Bob bob,No,st.session_state['ticket_data'][key],
+TCKT-2019,Server access denied,Network,ziuuuuuuuuuuuuuuuuuuuu,2025-01-21,Bob bob,No,['ticket_data'],
+TCKT-2020,Server access denied,Network,"necessary permissions, granted",2025-01-21,Bob bob,Yes,User cannot access the server due to rights,
