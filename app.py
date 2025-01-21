@@ -115,11 +115,10 @@ def app():
         issue = st.text_input("Issue", max_chars=200)
         description = st.text_area("Description", max_chars=800)
         date = st.text( datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-        agent_name = st.text_input("Agent Name")
         choice = st.radio("Select Mode of Operation:", ["Direct Query", "Generative Response"])
         submit = st.form_submit_button("Submit Query")
 
-        if submit and all([agent_name, issue, description]):
+        if submit and all([ issue, description]):
             ticket_id = generate_ticket_id(NEW_TICKETS_PATH, QUERY_TICKET_SAVE_PATH)
             ticket_data = {
                 "Ticket ID": ticket_id,
@@ -127,7 +126,7 @@ def app():
                 "Issue": issue,
                 "Description": description,
                 "Date": datetime.now().strftime("%Y-%m-%d"),
-                "Agent Name": agent_name
+                "Agent Name": "auto_agent"
             }
             st.session_state['ticket_data'] = ticket_data
 
