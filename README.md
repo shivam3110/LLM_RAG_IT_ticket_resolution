@@ -2,11 +2,10 @@
 
 ![alt text](rag_lanchain.png)
 ## Overview
-This repository is developed as part of the case study for the AI Solutions Engineer position at Aleph Alpha. The challenge involves building a tool to assist IT helpdesk agents by leveraging historical data of previously resolved tickets to suggest resolutions for new tickets.
-
+This repository contains a tool designed to assist IT helpdesk agents by leveraging historical data of previously resolved tickets to suggest resolutions for new tickets. The system is built using Streamlit for the UI and integrates advanced AI models for response generation.
 
 ## Problem Statement
-IT helpdesk agents frequently encounter redundant issues that have been resolved previously but lack an efficient way to reference these solutions. The main problem is the lack of a system to inform the agent if and how a problem has been resolved in the past. This results in inefficiency and increased resolution times for customer tickets.
+IT helpdesk agents often encounter repetitive issues that have been resolved previously. However, they lack an efficient way to reference these solutions, leading to inefficiencies and increased resolution times for customer tickets.
 
 ## Approach
 The solution involves creating an intelligent ticket resolution assistant that:
@@ -51,9 +50,9 @@ streamlit run app.py
 Follow the on-screen instructions to process new tickets in either direct query mode or generative response mode.
 
 ### Modules
-- **Data Processing**: Handles the ingestion and preprocessing of ticket data (*see data_processing.py*).
+- **Data Processing**: Handles the ingestion and preprocessing of ticket data
 - **Embedding Utilities**: Manages the embedding and querying operations using sentence transformers and - Chroma (*see embedding_utils.py*).
-- **Response Generation**: Interfaces with the Meta-Llama model to generate responses based on past - ticket data (*see response_generation.py*).
+- **Response Generation**: Interfaces with the Meta-Llama model to generate responses based on past - ticket data
 - **Main**: Orchestrates the overall workflow from data loading to response generation (*see app.py*).
 
 ### Resources
