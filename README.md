@@ -60,12 +60,14 @@ Follow the on-screen instructions to process new tickets in either direct query 
 - **Data Dependency**: The system’s effectiveness is highly dependent on the quality and volume of the historical data, which can vary.
 - **Complex Queries Handling**: The current setup may not handle highly complex or ambiguous queries effectively, especially those that do not closely match any historical tickets.
 - **Adaptability**: The system might not adapt quickly to new types of tickets that have not yet been documented extensively.
+- **Evaluation**: Response quality metrics and user satisfaction
 
 ### Proposed Solutions: 
 
 - **Improve Data Collection**: create a large database of old tickets
 - **Fine tune LLM**: on a dataset specific to IT support can significantly improve their ability to handle complex queries.
 - **Continuous Learning**: Incorporate mechanisms for the system to learn from new tickets and user corrections.
+- **Statistical scores & LLM based metrics**: Evaluate effectiveness
 
 
 ## Future Directions
