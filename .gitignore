@@ -4,6 +4,6 @@
 .json
 
 #folders
-chroma/**
-data/
+data
+chroma/*
 __pycache__
