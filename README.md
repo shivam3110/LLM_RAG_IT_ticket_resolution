@@ -29,7 +29,7 @@ The solution involves creating an intelligent ticket resolution assistant that:
 
 ## Setup
 ### Prerequisites
-- Python 3.8+
+- Python 3.11+
 - Dependencies include pandas, requests, transformers, chromadb, langchain_community
 
 ### Installation
@@ -49,6 +49,12 @@ Run the application:
 streamlit run app.py
 ``` 
 Follow the on-screen instructions to process new tickets in either direct query mode or generative response mode.
+
+### Modules
+- **Data Processing**: Handles the ingestion and preprocessing of ticket data (*see data_processing.py*).
+- **Embedding Utilities**: Manages the embedding and querying operations using sentence transformers and - Chroma (*see embedding_utils.py*).
+- **Response Generation**: Interfaces with the Meta-Llama model to generate responses based on past - ticket data (*see response_generation.py*).
+- **Main**: Orchestrates the overall workflow from data loading to response generation (*see app.py*).
 
 ### Resources
 
