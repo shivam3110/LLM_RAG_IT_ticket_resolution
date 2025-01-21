@@ -1,0 +1,9 @@
+#files
+.csv
+.xlsx
+.json
+
+#folders
+chroma/**
+data/
+__pycache__
