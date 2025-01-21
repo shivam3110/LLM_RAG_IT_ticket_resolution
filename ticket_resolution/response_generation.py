@@ -112,15 +112,6 @@ def generate_rag_llm_response(chroma_client, ticket_data):
 
 
     if combined_documents:
-        print("XXXXXXXXXX",len(combined_documents))
-        print(parsed_result)
-        # prompt= f""" You are a IT engineer and you provide solution for IT related issues. 
-        # The issue is {combined_text}.
-        # There are issues/tickets from the past that are similar to the newly raised issue/tickets. 
-        # Please make use of the following solutions from the past (combined document): {combined_documents} 
-        # to provide a proper response. Please highlight past ticket was resolved/unresolved 
-        # {combined_document_flag}, in combined document.
-        # """
         prompt= f""" As an IT engineer responsible for maintaining and troubleshooting technology 
         infrastructure, I am currently facing a critical issue related to the category of 
         "{ticket_data['Category']}". Here are the details:
