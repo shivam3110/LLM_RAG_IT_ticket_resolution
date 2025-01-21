@@ -55,6 +55,27 @@ Follow the on-screen instructions to process new tickets in either direct query 
 - **Response Generation**: Interfaces with the Meta-Llama model to generate responses based on past - ticket data
 - **Main**: Orchestrates the overall workflow from data loading to response generation (*see app.py*).
 
+## Shortcomings
+
+- **Data Dependency**: The system’s effectiveness is highly dependent on the quality and volume of the historical data, which can vary.
+- **Complex Queries Handling**: The current setup may not handle highly complex or ambiguous queries effectively, especially those that do not closely match any historical tickets.
+- **Adaptability**: The system might not adapt quickly to new types of tickets that have not yet been documented extensively.
+
+### Proposed Solutions: 
+
+- **Improve Data Collection**: create a large database of old tickets
+- **Fine tune LLM**: on a dataset specific to IT support can significantly improve their ability to handle complex queries.
+- **Continuous Learning**: Incorporate mechanisms for the system to learn from new tickets and user corrections.
+
+
+## Future Directions
+
+- **Enhanced AI Models**: Explore more advanced LLMs that could provide more accurate embeddings and generative responses.
+- **Feedback Loop**: Implement a continuous learning system where the model adapts and improves based on new tickets and agent feedback.
+- **Integration Capabilities**: Work on APIs or plugins that allow easy integration with a variety of existing helpdesk software.
+
+## References
+
 ### Resources
 
 - https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
