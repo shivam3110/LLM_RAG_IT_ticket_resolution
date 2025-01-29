@@ -34,8 +34,8 @@ The solution involves creating an intelligent ticket resolution assistant that:
 ### Installation
 Clone the repository and install the required packages:
 ```bash
-git clone https://github.com/yourusername/aa-case-study-ai-solutions-engineer-main.git
-cd aa-case-study-ai-solutions-engineer-main
+git clone https://github.com/shivam3110/LLM_RAG_IT_ticket_resolution.git
+cd LLM_RAG_IT_ticket_resolution
 sh setup.sh
 ```
 
