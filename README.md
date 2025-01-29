@@ -1,4 +1,4 @@
-# Aleph Alpha AI Solutions Engineer Case Study Solution
+# IT ticket resolution AI assistant 
 
 ![alt text](rag_lanchain.png)
 ## Overview
@@ -85,7 +85,7 @@ Follow the on-screen instructions to process new tickets in either direct query 
 - https://python.langchain.com/docs/integrations/providers/huggingface/
 - https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb
 
-### Acknowledgments
+<!-- ### Acknowledgments
 - Thanks to Aleph Alpha for providing the opportunity to engage in this case study.
-- Special thanks to the open-source community for the tools and libraries utilized in this project.
+- Special thanks to the open-source community for the tools and libraries utilized in this project. -->
 
